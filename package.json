@@ -1,0 +1,11 @@
+{
+  "name": "ooxx",
+  "version": "1.0.0",
+  "description": "a simple ooxx game made by node.js and socket.io",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "s094392",
+  "license": "ISC"
+}

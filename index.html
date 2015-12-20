@@ -4,6 +4,7 @@
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width">
         <title>OOXX</title>
+        <script src="https://cdn.socket.io/socket.io-1.2.0.js"></script>
         <link rel="stylesheet" href="/node_modules/material-design-lite/material.min.css">
         <script src="/node_modules/material-design-lite/material.min.js"></script>
         <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
@@ -12,55 +13,58 @@
         <table border="0" cellspacing="5" cellpadding="5">
             <tr>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="1" class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="2"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                        <i class="material-icons">close</i>
-                    </button>
-                </td>
-            </tr>
-            <tr>
-                <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                        <i class="material-icons">close</i>
-                    </button>
-                </td>
-                <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
-                        <i class="material-icons">close</i>
-                    </button>
-                </td>
-                <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="3"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
             </tr>
             <tr>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="4"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="5"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
                 <td>
-                    <button class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                    <button name="6"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <i class="material-icons">close</i>
+                    </button>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <button name="7"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <i class="material-icons">close</i>
+                    </button>
+                </td>
+                <td>
+                    <button name="8"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
+                        <i class="material-icons">close</i>
+                    </button>
+                </td>
+                <td>
+                    <button name="9"  class="mdl-button mdl-js-button mdl-button--raised mdl-js-ripple-effect mdl-button--accent">
                         <i class="material-icons">close</i>
                     </button>
                 </td>
             </tr>
         </table>
+        <script type="text/javascript" charset="utf-8">
+            var socket = io();
+        </script>
     </body>
 </html>
